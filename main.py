@@ -1,9 +1,6 @@
 import os
 import streamlit as st
 import google.generativeai as genai
-import textwrap
-from IPython.display import display
-from IPython.display import Markdown
 
 GOOGLE_API_KEY="AIzaSyANyiDGTaSm4mkjkmccQ80Dug9ES3-URYo"
 genai.configure(api_key=GOOGLE_API_KEY)
